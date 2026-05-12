@@ -7,7 +7,7 @@ type EssentialsProps = {
 const Essentials = ({ title, off, date }: EssentialsProps) => {
     return (
         <div className="w-57 h-40.75 bg-[#ffffff] flex flex-col relative">
-            <div className="flex flex-col gap-2.75 items-center pt-[36px]">
+            <div className="flex flex-col gap-2.75 items-center pt-9">
                 <p className="text-[20px] font-bold leading-5">{title}</p>
                 <p className="text-[20px] font-bold leading-5 text-[#FF2E00]">{off}</p>
             </div>

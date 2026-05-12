@@ -2,7 +2,7 @@
 const CoverMenu = () => {
     return (
         <div className="w-full flex justify-center">
-            <nav className="flex lg:p-[44px_90px_16px_90px] justify-between p-[44px_0px_16px] lg:w-315 w-220.25">
+            <nav className="flex lg:p-[44px_90px_16px_90px] justify-between p-[44px_0px_16px] lg:w-full w-220.25">
                 <a href="#" className="text-[14px] cursor-pointer text-[#FF7A00]">Woman</a>
                 <a href="#" className="text-[14px] cursor-pointer">Male</a>
                 <a href="#" className="text-[14px] cursor-pointer">Mother-Child</a>
