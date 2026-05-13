@@ -6,7 +6,34 @@ import Explore4 from "../../../public/images/img/Explore4.jpg"
 import Advert2Img from "../../../public/images/img/Advert2.png"
 import { Advert2 } from "@/app/atoms/Advert2/Advert2"
 
-const Explore = () => {
+type ExploreProps = {
+    mobile?: boolean;
+}
+
+const Explore = ({ mobile = false }: ExploreProps) => {
+    if (mobile) {
+        return (
+            <div className="flex flex-col gap-5 p-5">
+                <ExploreCard
+                    title="Never-Ending Summer"
+                    description="Throwback Shirts & all-day dressed"
+                    linkText="Explore all categories"
+                    href="#"
+                    image={Explore1}
+                    className="bg-[#BF2E3B]"
+                />
+
+                <ExploreCard
+                    title="The most famous sport brands"
+                    description="Get in gym essentials"
+                    linkText="Explore all categories"
+                    href="#"
+                    image={Explore2}
+                    className="bg-[#1D5159]"
+                />
+            </div>
+        )
+    }
     return (
         <div className="flex flex-col mb-17">
             <div className="mb-17 p-[0px_90px] flex place-content-between xl:flex-nowrap flex-wrap xml:gap-0 gap-5 xml:justify-between justify-center">

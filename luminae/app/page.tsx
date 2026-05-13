@@ -10,11 +10,12 @@ const page = () => {
   return (
     <div>
       <Header />
+      <div className="sm:hidden"><Explore mobile /></div>
       <Cover />
       <FlashSales />
       <Trending />
       <Top100 />
-      <Explore />
+      <div className="hidden sm:block"><Explore /></div>
       <Footer />
     </div>
   )
