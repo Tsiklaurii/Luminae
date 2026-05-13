@@ -1,4 +1,5 @@
 import Cover from "./organisms/Cover/Cover"
+import Explore from "./organisms/Explore/Explore"
 import FlashSales from "./organisms/FlashSales/FlashSales"
 import Footer from "./organisms/Footer/Footer"
 import Header from "./organisms/Header/Header"
@@ -13,6 +14,7 @@ const page = () => {
       <FlashSales />
       <Trending />
       <Top100 />
+      <Explore />
       <Footer />
     </div>
   )
