@@ -1,5 +1,5 @@
+import Link from "next/link";
 import Logo from "@/app/atoms/Logo/Logo"
-import HeaderMenu from "@/app/atoms/HeaderMenu/HeaderMenu"
 import Networks from "@/app/atoms/Networks/Networks"
 import SearchInput from "@/app/atoms/Search/SearchInput"
 
@@ -17,7 +17,12 @@ const Search = () => {
                     <SearchInput />
                 </div>
                 <div className="hidden sm:block">
-                    <HeaderMenu />
+                    <nav className="flex gap-3 text-[#555555]">
+                        <Link href="/about" className="w-24 text-left text-[14px]">About us</Link>
+                        <Link href="/blog" className="w-24 text-left text-[14px]">Blog</Link>
+                        <Link href="/contact" className="w-24 text-left text-[14px]">Contact us</Link>
+                        <Link href="/support" className="w-24 text-left text-[14px]">Help & support</Link>
+                    </nav>
                 </div>
                 <div className="hidden sm:block">
                     <Networks />

@@ -7,7 +7,7 @@ const SearchInput = () => {
         <div className="flex items-center border border-[#D9D9D9] rounded-sm overflow-hidden px-3 py-2">
             <input type="text" placeholder="Search Products" className="focus:outline-none" />
 
-            <button className="border-r border-[#E9E9E9] text-sm cursor-pointer h-6 items-center flex gap-1.75 pr-4.75">All Categories
+            <button className="border-r border-[#E9E9E9] text-sm cursor-pointer h-6 items-center flex gap-1.75 pr-4.75 text-[#262626]">All Categories
                 <Image alt="Logo" src={CategoriesArrow} loading="eager" width={10} />
             </button>
 
