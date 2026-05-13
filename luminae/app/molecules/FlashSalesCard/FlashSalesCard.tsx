@@ -8,7 +8,7 @@ type FlashSalesCardProps = {
     title: string;
     description: string;
     ratingImage: StaticImageData;
-    rating: string;
+    rating: number;
     newPrice: string;
     oldPrice: string;
     discount: string;

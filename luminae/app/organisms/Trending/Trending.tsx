@@ -12,7 +12,7 @@ const Trending = () => {
                 <h3 className="text-[28px] leading-5">Trending must-haves</h3>
                 <button className="text-[12px] text-[#262626] leading-5 cursor-pointer">View all</button>
             </div>
-            <div className="flex place-content-between flex-wrap gap-5 justify-center">
+            <div className="flex place-content-between xml:flex-nowrap flex-wrap xml:gap-0 gap-5 xml:justify-between justify-center">
                 <TrendingCard
                     newArrivalsLogo={NewArrivals}
                     image={Trending1}

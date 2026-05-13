@@ -12,7 +12,7 @@ const FlashSales = () => {
                 <h3 className="text-[28px] leading-5">Flash Sales</h3>
                 <button className="text-[12px] text-[#262626] leading-5 cursor-pointer">View all</button>
             </div>
-            <div className="flex place-content-between flex-wrap gap-5 justify-center">
+            <div className="flex place-content-between lg:flex-nowrap flex-wrap xml:gap-0 gap-5 xml:justify-between justify-center">
                 <FlashSalesCard
                     hour={12}
                     min={43}
@@ -21,7 +21,7 @@ const FlashSales = () => {
                     title="Tonny Black"
                     description="Shoulder bag-White-Plain"
                     ratingImage={Stars}
-                    rating="54"
+                    rating={54}
                     newPrice="$69.99"
                     oldPrice="$129.99"
                     discount="-40%"
@@ -34,7 +34,7 @@ const FlashSales = () => {
                     title="Reebok"
                     description="Women’s Powder sneakers"
                     ratingImage={Stars}
-                    rating="54"
+                    rating={54}
                     newPrice="$112.03"
                     oldPrice="$129.99"
                     discount="-40%"
@@ -47,7 +47,7 @@ const FlashSales = () => {
                     title="Pasto"
                     description="Shoulder bag-Pink-Plain"
                     ratingImage={Stars}
-                    rating="54"
+                    rating={54}
                     newPrice="$69.99"
                     oldPrice="$129.99"
                     discount="-40%"
@@ -61,7 +61,7 @@ const FlashSales = () => {
                     title="Sketchers"
                     description="Sport-shoe 2102"
                     ratingImage={Stars}
-                    rating="54"
+                    rating={54}
                     newPrice="$80.00"
                     oldPrice="$129.99"
                     discount="-40%"
