@@ -51,7 +51,7 @@ const FlashSales = () => {
                     newPrice="$69.99"
                     oldPrice="$129.99"
                     discount="-40%"
-                    className="hidden sm:block"
+                    className="hidden sm:flex"
                 />
                 <FlashSalesCard
                     hour={25}
@@ -65,7 +65,7 @@ const FlashSales = () => {
                     newPrice="$80.00"
                     oldPrice="$129.99"
                     discount="-40%"
-                    className="hidden sm:block"
+                    className="hidden sm:flex"
                 />
             </div>
         </div>
